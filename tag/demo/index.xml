@@ -20,5 +20,21 @@
       <description></description>
     </item>
     
+    <item>
+      <title>External Project</title>
+      <link>https://yuntaozh.github.io/project/test-proj1/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://yuntaozh.github.io/project/test-proj1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://yuntaozh.github.io/project/test-proj2/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://yuntaozh.github.io/project/test-proj2/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

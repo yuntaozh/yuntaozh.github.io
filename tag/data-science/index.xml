@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Academic</title>
-    <link>https://yuntaozh.github.io/project/</link>
-      <atom:link href="https://yuntaozh.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>Data Science | Academic</title>
+    <link>https://yuntaozh.github.io/tag/data-science/</link>
+      <atom:link href="https://yuntaozh.github.io/tag/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Science</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yuntaozh.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
-      <title>Projects</title>
-      <link>https://yuntaozh.github.io/project/</link>
+      <title>Data Science</title>
+      <link>https://yuntaozh.github.io/tag/data-science/</link>
     </image>
     
     <item>
@@ -26,26 +26,10 @@
     </item>
     
     <item>
-      <title>Lecture Capture Improvement</title>
-      <link>https://yuntaozh.github.io/project/caen/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://yuntaozh.github.io/project/caen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Racial Disparity in SpO2</title>
       <link>https://yuntaozh.github.io/project/mcircc/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/mcircc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SQL Query Superoptimization</title>
-      <link>https://yuntaozh.github.io/project/sql/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://yuntaozh.github.io/project/sql/</guid>
       <description></description>
     </item>
     
