@@ -20,11 +20,35 @@
     <loc>https://yuntaozh.github.io/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://yuntaozh.github.io/tag/ai/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yuntaozh.github.io/tag/program-synthesis/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yuntaozh.github.io/project/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yuntaozh.github.io/project/a_sql/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yuntaozh.github.io/tags/</loc>
+    <lastmod>2021-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yuntaozh.github.io/tag/data-science/</loc>
+    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yuntaozh.github.io/project/b_mdp/</loc>
+    <lastmod>2021-12-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yuntaozh.github.io/post/2020-12-01-r-rmarkdown/</loc>
     <lastmod>2021-11-28T03:13:19-05:00</lastmod>
   </url><url>
     <loc>https://yuntaozh.github.io/post/</loc>
     <lastmod>2021-11-28T03:13:19-05:00</lastmod>
+  </url><url>
+    <loc>https://yuntaozh.github.io/project/mcircc/</loc>
+    <lastmod>2021-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yuntaozh.github.io/courses/</loc>
     <lastmod>2021-01-24T00:00:00+00:00</lastmod>
@@ -45,9 +69,6 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yuntaozh.github.io/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuntaozh.github.io/tags/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yuntaozh.github.io/post/getting-started/</loc>
@@ -95,32 +116,11 @@
     <loc>https://yuntaozh.github.io/terms/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://yuntaozh.github.io/tag/ai/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuntaozh.github.io/tag/data-science/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yuntaozh.github.io/project/d_caen/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yuntaozh.github.io/tag/others/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuntaozh.github.io/tag/program-synthesis/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuntaozh.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuntaozh.github.io/project/mcircc/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuntaozh.github.io/project/a_sql/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yuntaozh.github.io/project/b_mdp/</loc>
-    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yuntaozh.github.io/publication-type/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
