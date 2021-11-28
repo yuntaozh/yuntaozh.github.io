@@ -7,7 +7,7 @@
     <description>Academic</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yuntaozh.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <url>https://yuntaozh.github.io/media/icon_hue3ea24c74e82f7dde694ae86953065c7_30559_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>https://yuntaozh.github.io/</link>
     </image>
@@ -234,7 +234,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-617459382&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-396524817&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -244,7 +244,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-617459382&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-396524817&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
