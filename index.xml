@@ -5,7 +5,7 @@
     <link>https://yuntaozh.github.io/</link>
       <atom:link href="https://yuntaozh.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yuntao Zhang</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Me</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Yuntao Zhang</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yuntaozh.github.io/media/icon_hu59a9e6bda3a969723432de705ce8b2b0_28569_512x512_fill_lanczos_center_3.png</url>
       <title>Yuntao Zhang</title>
@@ -123,17 +123,9 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
-      <title>SQL Query Superoptimization</title>
-      <link>https://yuntaozh.github.io/project/sql/</link>
-      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://yuntaozh.github.io/project/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Optimal Control of Inkjet Printing</title>
       <link>https://yuntaozh.github.io/project/mdp/</link>
-      <pubDate>Fri, 10 Dec 2021 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/mdp/</guid>
       <description>&lt;p&gt;Part of the Multidiciplinary Design Program at University of Michigan.&lt;/p&gt;
 </description>
@@ -152,6 +144,14 @@ The variance of the distribution is $\sigma^{2}$.
       <link>https://yuntaozh.github.io/project/mcircc/</link>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/mcircc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture Capture Improvement</title>
+      <link>https://yuntaozh.github.io/project/caen/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://yuntaozh.github.io/project/caen/</guid>
       <description></description>
     </item>
     
@@ -259,7 +259,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-163957248&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-895146327&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -269,7 +269,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-163957248&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-895146327&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -663,14 +663,6 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Lecture Capture Improvement</title>
-      <link>https://yuntaozh.github.io/project/caen/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://yuntaozh.github.io/project/caen/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>An example journal article</title>
       <link>https://yuntaozh.github.io/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
@@ -697,6 +689,14 @@ $$&lt;/p&gt;
       <link>https://yuntaozh.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL Query Superoptimization</title>
+      <link>https://yuntaozh.github.io/project/sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yuntaozh.github.io/project/sql/</guid>
       <description></description>
     </item>
     
