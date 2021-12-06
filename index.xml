@@ -259,7 +259,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-358621479&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-163957248&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -269,7 +269,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-358621479&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-163957248&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -649,7 +649,7 @@ $$&lt;/p&gt;
       <link>https://yuntaozh.github.io/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       <guid>https://yuntaozh.github.io/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+      <description>&lt;p&gt;There&amp;rsquo;s no such thing as privacy on the Internet. Enjoy!&lt;/p&gt;
 </description>
     </item>
     
@@ -658,7 +658,7 @@ $$&lt;/p&gt;
       <link>https://yuntaozh.github.io/terms/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
       <guid>https://yuntaozh.github.io/terms/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+      <description>&lt;p&gt;Nope!&lt;/p&gt;
 </description>
     </item>
     
