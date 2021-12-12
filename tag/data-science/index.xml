@@ -17,7 +17,10 @@
       <link>https://yuntaozh.github.io/project/mdp/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/mdp/</guid>
-      <description>&lt;p&gt;Part of the Multidiciplinary Design Program at University of Michigan.&lt;/p&gt;
+      <description>&lt;p&gt;Machine learning embodies great potential in many interdisciplinary applications. In this project, we aim to find the optimal printing parameter of inkjet printers using machine learning methods.&lt;/p&gt;
+&lt;p&gt;We developed sampling methods for the experimental design, and our collaborator at Boise State University produced product lines based on our parameters combination and took microscope images of those lines.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;./feature.png&#34; alt=&#34;png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;We then developed image processing algorithms to calculate features of the printed lines. Multiple models were trained and compared and we eventually used neural networks as surrogate models for printing quality prediction.&lt;/p&gt;
 </description>
     </item>
     
