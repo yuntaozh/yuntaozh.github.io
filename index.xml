@@ -127,7 +127,10 @@ The variance of the distribution is $\sigma^{2}$.
       <link>https://yuntaozh.github.io/project/sql/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/sql/</guid>
-      <description></description>
+      <description>&lt;p&gt;SQL queries, if written poorly, are slow on large databases, even using state-of-the-art query optimizers.&lt;/p&gt;
+&lt;p&gt;In this project, we aim to leverage program synthesis, an area at the intersection of programming systems and artificial intelligence, to develop a SQL synthesizer that optimizes slow queries. With our unique benchmark collected from Leetcode and testing procedure incorporating fake data generation with Faker and runtime analysis with PostgreSQL cost model, we developed a solid understanding of what caused the queries to be slow, as well as how to rewrite/optimize them.&lt;/p&gt;
+&lt;p&gt;The current infrastructure includes transformation rules and verfier. For queries rewriting, we have rule-based transformation, where a queries is evaluated on a set of rewrite rules, and if the queries match conditions for any rules, the query will undergo transformation at the abstract syntax tree (AST) level, resulting in optimized queries. However, there are conditions where no pattern was found for the queries, we will use a search-based technique to restructure part of the query to achieve optimization, based on our understanding of what makes a query have a shorter runtime.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -267,7 +270,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-418395762&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-654239178&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -277,7 +280,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-418395762&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-654239178&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

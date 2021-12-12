@@ -17,7 +17,10 @@
       <link>https://yuntaozh.github.io/project/sql/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/sql/</guid>
-      <description></description>
+      <description>&lt;p&gt;SQL queries, if written poorly, are slow on large databases, even using state-of-the-art query optimizers.&lt;/p&gt;
+&lt;p&gt;In this project, we aim to leverage program synthesis, an area at the intersection of programming systems and artificial intelligence, to develop a SQL synthesizer that optimizes slow queries. With our unique benchmark collected from Leetcode and testing procedure incorporating fake data generation with Faker and runtime analysis with PostgreSQL cost model, we developed a solid understanding of what caused the queries to be slow, as well as how to rewrite/optimize them.&lt;/p&gt;
+&lt;p&gt;The current infrastructure includes transformation rules and verfier. For queries rewriting, we have rule-based transformation, where a queries is evaluated on a set of rewrite rules, and if the queries match conditions for any rules, the query will undergo transformation at the abstract syntax tree (AST) level, resulting in optimized queries. However, there are conditions where no pattern was found for the queries, we will use a search-based technique to restructure part of the query to achieve optimization, based on our understanding of what makes a query have a shorter runtime.&lt;/p&gt;
+</description>
     </item>
     
     <item>
