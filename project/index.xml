@@ -40,7 +40,10 @@
       <link>https://yuntaozh.github.io/project/mcircc/</link>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/mcircc/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.nejm.org/doi/full/10.1056/nejmc2029240&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Prior study&lt;/a&gt; at Michigan Medicine shows that the oxygen saturation (SpO2) measurement produced by pulse oximeters is biased toward people of color.&lt;/p&gt;
+&lt;p&gt;In this project at the &lt;a href=&#34;https://mcircc.umich.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Michigan Center for Integrative Research in Critical Care&lt;/a&gt;, we assessed the quality of SpO2 derived from patient’s bedside monitors bedside monitors and compared them with the gold standard arterial blood gas (ABG) results to look for potential bias.&lt;/p&gt;
+&lt;p&gt;SpO2 values that are potentially generated from noisy photoplethysmography (PPG) signals may be inaccurate. In particular, we augment the PhysioNet Cardiovascular Signal Toolbox to assess the quality of each beat, and therefore determine how trustworthy a particular SpO2 value is. We also designed post-processing pipelines to enforce stricter requirements for a beat to be considered acceptable.&lt;/p&gt;
+</description>
     </item>
     
     <item>
