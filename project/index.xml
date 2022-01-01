@@ -5,7 +5,7 @@
     <link>https://yuntaozh.github.io/project/</link>
       <atom:link href="https://yuntaozh.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Yuntao Zhang</copyright><lastBuildDate>Wed, 08 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Yuntao Zhang</copyright><lastBuildDate>Wed, 08 Dec 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yuntaozh.github.io/media/icon_hu59a9e6bda3a969723432de705ce8b2b0_28569_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
@@ -51,7 +51,9 @@
       <link>https://yuntaozh.github.io/project/caen/</link>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/caen/</guid>
-      <description></description>
+      <description>&lt;p&gt;The Lecture Capture System at &lt;a href=&#34;https://caen.engin.umich.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CAEN&lt;/a&gt; captures high-quality images from the whiteboards in the classrooms. However, image quality can be poor in certain lighting conditions, and images often take up a lot of space and time to process.&lt;/p&gt;
+&lt;p&gt;Working as an Instructional Technology Developer at CAEN, I developed an algorithm to enhance the appearance of pen strokes against the noisy, unevenly lit background after completing a literature review on whiteboard enhancement, improving the legibility of whiteboards in even the worst lighting conditions. For the issue of unnecessary saving and processing of images, I developed a method to detect unchanged image frames based on differences in Normalized Cross-Correlation, thereby eliminating the need to process those images.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
