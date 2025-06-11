@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compiler | Yuntao Zhang</title>
+    <link>https://yuntaozh.github.io/tag/compiler/</link>
+      <atom:link href="https://yuntaozh.github.io/tag/compiler/index.xml" rel="self" type="application/rss+xml" />
+    <description>Compiler</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Yuntao Zhang</copyright><lastBuildDate>Thu, 08 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yuntaozh.github.io/media/icon_hu59a9e6bda3a969723432de705ce8b2b0_28569_512x512_fill_lanczos_center_3.png</url>
+      <title>Compiler</title>
+      <link>https://yuntaozh.github.io/tag/compiler/</link>
+    </image>
+    
+    <item>
+      <title>Profile-guided LLVM Optimization</title>
+      <link>https://yuntaozh.github.io/project/llvm/</link>
+      <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://yuntaozh.github.io/project/llvm/</guid>
+      <description>&lt;p&gt;Modern processors are incredibly fast, but memory latency remains a major bottleneck for performance. Compiler optimizations that restructure code to improve cache behavior and instruction efficiency can have a significant impact. In this project, I explored and implemented two profile-guided optimizations within the LLVM compiler framework.&lt;/p&gt;
+&lt;p&gt;Both techniques use dynamic profiling information to make more informed, speculative decisions during compilation—targeting performance gains that go beyond traditional static analysis.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Frequent Path Loop-Invariant Code Motion (FPLICM)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Traditional LICM hoists loop-invariant instructions outside of loops to avoid redundant computations. However, it must guarantee correctness across all paths within a loop, often leaving optimization opportunities untapped.&lt;/p&gt;
+&lt;p&gt;FPLICM builds on this by identifying instructions that are invariant along the most frequent execution path, even if they vary on rare paths. These &amp;ldquo;almost invariant&amp;rdquo; instructions are speculatively hoisted based on profiling data. If the program later takes an infrequent path, a lightweight repair mechanism ensures correctness by re-executing the hoisted code.&lt;/p&gt;
+&lt;p&gt;This speculative approach increases optimization aggressiveness while preserving correctness, leveraging the observation that most programs exhibit strong execution locality in loops.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Profile-Guided Software Prefetching&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;To address cache miss latency, I developed a profile-guided software prefetching pass. Unlike static approaches that require manually tuning prefetch distances, this optimization utilizes profile information from Intel&amp;rsquo;s Last Branch Record (LBR) to determine the best prefetch distance and prefetch injection site.&lt;/p&gt;
+&lt;p&gt;In testing, this technique improved performance effectively, especially for loops with indirect memory accesses—cases where hardware prefetchers typically fall short.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
