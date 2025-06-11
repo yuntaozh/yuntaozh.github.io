@@ -18,7 +18,7 @@
       <pubDate>Thu, 08 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://yuntaozh.github.io/project/llvm/</guid>
       <description>&lt;p&gt;Modern processors are incredibly fast, but memory latency remains a major bottleneck for performance. Compiler optimizations that restructure code to improve cache behavior and instruction efficiency can have a significant impact. In this project, I explored and implemented two profile-guided optimizations within the LLVM compiler framework.&lt;/p&gt;
-&lt;p&gt;Both techniques use dynamic profiling information to make more informed, speculative decisions during compilation—targeting performance gains that go beyond traditional static analysis.&lt;/p&gt;
+&lt;p&gt;Both techniques use dynamic profiling information to make more informed decisions during compilation—targeting performance gains that go beyond traditional static analysis.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Frequent Path Loop-Invariant Code Motion (FPLICM)&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Traditional LICM hoists loop-invariant instructions outside of loops to avoid redundant computations. However, it must guarantee correctness across all paths within a loop, often leaving optimization opportunities untapped.&lt;/p&gt;
 &lt;p&gt;FPLICM builds on this by identifying instructions that are invariant along the most frequent execution path, even if they vary on rare paths. These &amp;ldquo;almost invariant&amp;rdquo; instructions are speculatively hoisted based on profiling data. If the program later takes an infrequent path, a lightweight repair mechanism ensures correctness by re-executing the hoisted code.&lt;/p&gt;
