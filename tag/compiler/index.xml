@@ -29,5 +29,15 @@
 </description>
     </item>
     
+    <item>
+      <title>Rust-based x86 Compiler</title>
+      <link>https://yuntaozh.github.io/project/rust/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://yuntaozh.github.io/project/rust/</guid>
+      <description>&lt;p&gt;The project implemented semantic analysis and code generation stages of a compiler written entirely in Rust, targeting x86-64 assembly.&lt;/p&gt;
+&lt;p&gt;Supported language feature includes common data types, operators, expressions, named and lambda functions, arrays, and register allocation via graph coloring. The result is a fully working Rust-based compiler backend—complete with type-checked IR and optimized x86 emission—for a C-like language.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

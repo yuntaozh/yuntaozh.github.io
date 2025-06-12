@@ -140,6 +140,16 @@ The variance of the distribution is $\sigma^{2}$.
     </item>
     
     <item>
+      <title>Rust-based x86 Compiler</title>
+      <link>https://yuntaozh.github.io/project/rust/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://yuntaozh.github.io/project/rust/</guid>
+      <description>&lt;p&gt;The project implemented semantic analysis and code generation stages of a compiler written entirely in Rust, targeting x86-64 assembly.&lt;/p&gt;
+&lt;p&gt;Supported language feature includes common data types, operators, expressions, named and lambda functions, arrays, and register allocation via graph coloring. The result is a fully working Rust-based compiler backend—complete with type-checked IR and optimized x86 emission—for a C-like language.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SQL Query Superoptimization</title>
       <link>https://yuntaozh.github.io/project/sql/</link>
       <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
@@ -295,7 +305,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-594378126&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-329174865&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -305,7 +315,7 @@ data&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-594378126&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-329174865&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
